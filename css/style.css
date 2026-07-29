@@ -194,7 +194,7 @@ body {
 }
 
 .js-accordion dd.ativo {
-  max-height: 70px;
+  max-height: 100px;
   opacity: 1;
   transform: translateY(0);
 }
