@@ -120,7 +120,7 @@
     </section>
     <section class="grid-section contato" data-anime="scroll" id="contato">
       <h1 class="titulo">Contato</h1>
-      <div class="mapa">
+      <div class="mapa" data-tooltip aria-label="Mapa de localização">
         <img src="img/mapa.png" alt="Mapa">
       </div>
       <ul class="dados">
@@ -135,9 +135,9 @@
     </footer>
   </div>
 
-  <section class="modal-container ativo" data-modal="container">
+  <section class="modal-container" data-modal="container">
     <div class="modal">
-      <button data-modal="fechar" class="fechar">X</button>
+      <button class="fechar" data-modal="fechar">X</button>
       <form action="">
         <label for="email">Email</label>
         <input type="text" for="email" id="email" placeholder="Digite seu email">
